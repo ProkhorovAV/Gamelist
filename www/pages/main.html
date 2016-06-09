@@ -1,0 +1,19 @@
+
+<ion-view view-title="">
+  <ion-content>
+    <div class="_back">
+      <div class="_ramka">
+        <div class="_menu"><img src="img/menu.png"/></div>
+      </div>
+      <div class="_up"></div>
+      <div class="_content">
+        <div ng-repeat="dialog in dialogsArray" class="_dialog {{dialog.class}}">{{dialog.text}}
+          <div class="_img"> <img src="img/{{dialog.img}}"/></div>
+        </div>
+        <div ng-repeat="button in buttonsArray" ng-click="AddText($index)" class="_button">            <img src="img/{{button.img}}"/>
+          <div class="_text">{{button.text}}</div>
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,167 @@
+._back {
+  height: 100%;
+  width: 100%;
+  background-image: url('../img/bg.png');
+  background-size: 100% 100%;
+  z-index: 0;
+  position: relative;
+}
+._up {
+  height: 2.3%;
+  width: 100%;
+  background-image: url('../img/ramkaUp.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+}
+._ramka {
+  height: 100%;
+  width: 100%;
+  background-image: url('../img/ramka.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+._ramka ._left {
+  height: 90%;
+  width: 9%;
+  background-image: url('../img/ramkaLeft.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  float: left;
+}
+._ramka ._right {
+  height: 90%;
+  width: 9%;
+  background-image: url('../img/ramkaRight.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  float: right;
+}
+._ramka ._down {
+  height: 5%;
+  width: 100%;
+  background-image: url('../img/ramkaDown.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  top: 90%;
+}
+._menu {
+  position: fixed;
+  text-align: center;
+  width: 0;
+  height: 0;
+  top: 1%;
+  left: 50%;
+  margin-left: -40px;
+  z-index: 5;
+}
+._content {
+  overflow-y: scroll;
+  width: 90%;
+  height: 95%;
+  position: fixed;
+  top: 2%;
+  z-index: 3;
+  padding: 10px;
+  left: 5%;
+  text-align: center;
+}
+._content > div:first-child {
+  margin-top: 50px;
+}
+._content ._textLeft {
+  width: 90%;
+  border: 1px solid;
+  border-color: #e18c44;
+  -webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.51);
+  -moz-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.51);
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.51);
+  background-color: #1b1917;
+  color: #da9e60;
+  padding: 10px;
+  font-size: 1em;
+  padding-right: 95px;
+  position: relative;
+  min-height: 95px;
+}
+._content ._textLeft ._text {
+  width: 70%;
+  float: left;
+}
+._content ._textLeft ._img {
+  position: absolute;
+  top: 10px;
+  left: -82px;
+  margin-left: 100%;
+}
+._content ._textLeft ._img img {
+  width: 70px;
+  height: 70px;
+}
+._content ._dialog {
+  width: 90%;
+  border: 1px solid;
+  border-color: #e18c44;
+  -webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.51);
+  -moz-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.51);
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.51);
+  background-color: #1b1917;
+  color: #da9e60;
+  padding: 10px;
+  font-size: 1em;
+  text-align: justify;
+  position: relative;
+  min-height: 95px;
+  margin-top: 10px;
+  line-height: 1.2;
+}
+._content ._dialogLeft {
+  float: left;
+  padding-right: 95px;
+  text-align: left;
+}
+._content ._dialogLeft ._img {
+  position: absolute;
+  top: 10px;
+  left: -82px;
+  margin-left: 100%;
+}
+._content ._dialogLeft ._img img {
+  width: 70px;
+  height: 70px;
+}
+._content ._dialogRight {
+  float: right;
+  padding-left: 95px;
+  text-align: right;
+}
+._content ._dialogRight ._img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+._content ._dialogRight ._img img {
+  width: 70px;
+  height: 70px;
+}
+._content ._button {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  float: left;
+  margin-top: 10px;
+}
+._content ._button img {
+  width: 74%;
+}
+._content ._button ._text {
+  position: absolute;
+  top: 8px;
+  left: 18%;
+  width: 64%;
+  font-size: 1em;
+  color: #c9b084;
+}
